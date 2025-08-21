@@ -1,0 +1,118 @@
+
+FILE: /Users/keith/Projects/Temp Stuff/Alamos-Gold-ESG-Report-2024/index.php
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 4 LINES
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  7 | ERROR | Scripts must be registered/enqueued via wp_enqueue_script (WordPress.WP.EnqueuedResources.NonEnqueuedScript)
+ 10 | ERROR | Scripts must be registered/enqueued via wp_enqueue_script (WordPress.WP.EnqueuedResources.NonEnqueuedScript)
+ 22 | ERROR | Stylesheets must be registered/enqueued via wp_enqueue_style (WordPress.WP.EnqueuedResources.NonEnqueuedStylesheet)
+ 31 | ERROR | All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found 'view'.
+    |       | (WordPress.Security.EscapeOutput.OutputNotEscaped)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: /Users/keith/Projects/Temp Stuff/Alamos-Gold-ESG-Report-2024/functions.php
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 10 ERRORS AND 2 WARNINGS AFFECTING 9 LINES
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   3 | ERROR   | Empty line not required before block comment (Squiz.Commenting.BlockComment.HasEmptyLineBefore)
+  14 | WARNING | Variable assignment found within a condition. Did you mean to do a comparison? (WordPress.CodeAnalysis.AssignmentInCondition.Found)
+  14 | ERROR   | Assignments must be the first block of code on a line (Squiz.PHP.DisallowMultipleAssignments.FoundInControlStructure)
+  15 | ERROR   | All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '__'.
+     |         | (WordPress.Security.EscapeOutput.OutputNotEscaped)
+  34 | ERROR   | All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '__'.
+     |         | (WordPress.Security.EscapeOutput.OutputNotEscaped)
+  38 | ERROR   | All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '__'.
+     |         | (WordPress.Security.EscapeOutput.OutputNotEscaped)
+  60 | WARNING | Variable assignment found within a condition. Did you mean to do a comparison? (WordPress.CodeAnalysis.AssignmentInCondition.Found)
+  60 | ERROR   | Assignments must be the first block of code on a line (Squiz.PHP.DisallowMultipleAssignments.FoundInControlStructure)
+  63 | ERROR   | All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '__'.
+     |         | (WordPress.Security.EscapeOutput.OutputNotEscaped)
+  63 | ERROR   | All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$file'.
+     |         | (WordPress.Security.EscapeOutput.OutputNotEscaped)
+ 115 | ERROR   | Missing doc comment for function cc_mime_types() (Squiz.Commenting.FunctionComment.Missing)
+ 121 | ERROR   | Missing doc comment for function fix_svg() (Squiz.Commenting.FunctionComment.Missing)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: /Users/keith/Projects/Temp Stuff/Alamos-Gold-ESG-Report-2024/app/admin.php
+------------------------------------------------------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+------------------------------------------------------------------------------------------------------------------
+ 1 | ERROR | There must be no blank lines before the file comment
+   |       | (Squiz.Commenting.FileComment.SpacingAfterOpen)
+------------------------------------------------------------------------------------------------------------------
+
+
+FILE: /Users/keith/Projects/Temp Stuff/Alamos-Gold-ESG-Report-2024/resources/views/blocks/alamos-carousel.blade.php
+----------------------------------------------------------------------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 3 LINES
+----------------------------------------------------------------------------------------------------------------------------------
+ 70 | ERROR | Stylesheets must be registered/enqueued via wp_enqueue_style
+    |       | (WordPress.WP.EnqueuedResources.NonEnqueuedStylesheet)
+ 71 | ERROR | Scripts must be registered/enqueued via wp_enqueue_script (WordPress.WP.EnqueuedResources.NonEnqueuedScript)
+ 73 | ERROR | Scripts must be registered/enqueued via wp_enqueue_script (WordPress.WP.EnqueuedResources.NonEnqueuedScript)
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: /Users/keith/Projects/Temp Stuff/Alamos-Gold-ESG-Report-2024/app/Include/testimonials.php
+-------------------------------------------------------------------------------------------------------------------------------
+FOUND 2 ERRORS AND 1 WARNING AFFECTING 3 LINES
+-------------------------------------------------------------------------------------------------------------------------------
+  1 | ERROR   | There must be no blank lines before the file comment (Squiz.Commenting.FileComment.SpacingAfterOpen)
+  5 | ERROR   | There must be exactly one blank line after the file comment
+    |         | (Squiz.Commenting.FileComment.SpacingAfterComment)
+ 44 | WARNING | This comment is 67% valid code; is this commented out code? (Squiz.PHP.CommentedOutCode.Found)
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: /Users/keith/Projects/Temp Stuff/Alamos-Gold-ESG-Report-2024/resources/views/blocks/alamos-map.blade.php
+----------------------------------------------------------------------------------------------------------------------------------
+FOUND 6 ERRORS AFFECTING 6 LINES
+----------------------------------------------------------------------------------------------------------------------------------
+ 21 | ERROR | Scripts must be registered/enqueued via wp_enqueue_script (WordPress.WP.EnqueuedResources.NonEnqueuedScript)
+ 22 | ERROR | Stylesheets must be registered/enqueued via wp_enqueue_style
+    |       | (WordPress.WP.EnqueuedResources.NonEnqueuedStylesheet)
+ 24 | ERROR | Stylesheets must be registered/enqueued via wp_enqueue_style
+    |       | (WordPress.WP.EnqueuedResources.NonEnqueuedStylesheet)
+ 25 | ERROR | Stylesheets must be registered/enqueued via wp_enqueue_style
+    |       | (WordPress.WP.EnqueuedResources.NonEnqueuedStylesheet)
+ 26 | ERROR | Scripts must be registered/enqueued via wp_enqueue_script (WordPress.WP.EnqueuedResources.NonEnqueuedScript)
+ 28 | ERROR | Scripts must be registered/enqueued via wp_enqueue_script (WordPress.WP.EnqueuedResources.NonEnqueuedScript)
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: /Users/keith/Projects/Temp Stuff/Alamos-Gold-ESG-Report-2024/config/app.php
+----------------------------------------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 3 WARNINGS AFFECTING 3 LINES
+----------------------------------------------------------------------------------------------------------------
+ 143 | WARNING | This comment is 67% valid code; is this commented out code?
+     |         | (Squiz.PHP.CommentedOutCode.Found)
+ 194 | WARNING | This comment is 50% valid code; is this commented out code?
+     |         | (Squiz.PHP.CommentedOutCode.Found)
+ 211 | WARNING | This comment is 50% valid code; is this commented out code?
+     |         | (Squiz.PHP.CommentedOutCode.Found)
+----------------------------------------------------------------------------------------------------------------
+
+
+FILE: /Users/keith/Projects/Temp Stuff/Alamos-Gold-ESG-Report-2024/config/view.php
+---------------------------------------------------------------------------------------------------------------
+FOUND 1 ERROR AND 1 WARNING AFFECTING 2 LINES
+---------------------------------------------------------------------------------------------------------------
+ 62 | ERROR   | Empty line required before block comment (Squiz.Commenting.BlockComment.NoEmptyLineBefore)
+ 80 | WARNING | This comment is 50% valid code; is this commented out code?
+    |         | (Squiz.PHP.CommentedOutCode.Found)
+---------------------------------------------------------------------------------------------------------------
+
+
+FILE: /Users/keith/Projects/Temp Stuff/Alamos-Gold-ESG-Report-2024/resources/views/blocks/bar-chart.blade.php
+---------------------------------------------------------------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+---------------------------------------------------------------------------------------------------------------------------
+ 88 | ERROR | Scripts must be registered/enqueued via wp_enqueue_script
+    |       | (WordPress.WP.EnqueuedResources.NonEnqueuedScript)
+ 89 | ERROR | Scripts must be registered/enqueued via wp_enqueue_script
+    |       | (WordPress.WP.EnqueuedResources.NonEnqueuedScript)
+---------------------------------------------------------------------------------------------------------------------------
+
+

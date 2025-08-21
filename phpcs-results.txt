@@ -1,0 +1,965 @@
+
+FILE: /Users/keith/Projects/Temp Stuff/Alamos-Gold-ESG-Report-2024/resources/styles/components/mmenu.css
+--------------------------------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 6 WARNINGS AFFECTING 6 LINES
+--------------------------------------------------------------------------------------------------------
+  2 | WARNING | Found precision alignment of 2 spaces.
+    |         | (WordPress.WhiteSpace.PrecisionAlignment.Found)
+  3 | WARNING | Found precision alignment of 2 spaces.
+    |         | (WordPress.WhiteSpace.PrecisionAlignment.Found)
+  6 | WARNING | Found precision alignment of 2 spaces.
+    |         | (WordPress.WhiteSpace.PrecisionAlignment.Found)
+  9 | WARNING | Found precision alignment of 2 spaces.
+    |         | (WordPress.WhiteSpace.PrecisionAlignment.Found)
+ 10 | WARNING | Found precision alignment of 2 spaces.
+    |         | (WordPress.WhiteSpace.PrecisionAlignment.Found)
+ 13 | WARNING | Found precision alignment of 2 spaces.
+    |         | (WordPress.WhiteSpace.PrecisionAlignment.Found)
+--------------------------------------------------------------------------------------------------------
+
+
+FILE: /Users/keith/Projects/Temp Stuff/Alamos-Gold-ESG-Report-2024/index.php
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 14 ERRORS AND 1 WARNING AFFECTING 6 LINES
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  7 | ERROR   | [ ] Scripts must be registered/enqueued via wp_enqueue_script (WordPress.WP.EnqueuedResources.NonEnqueuedScript)
+ 10 | WARNING | [ ] Found precision alignment of 3 spaces. (WordPress.WhiteSpace.PrecisionAlignment.Found)
+ 10 | ERROR   | [ ] Scripts must be registered/enqueued via wp_enqueue_script (WordPress.WP.EnqueuedResources.NonEnqueuedScript)
+ 22 | ERROR   | [ ] Stylesheets must be registered/enqueued via wp_enqueue_style (WordPress.WP.EnqueuedResources.NonEnqueuedStylesheet)
+ 28 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 28 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 31 | ERROR   | [ ] All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found 'view'.
+    |         |     (WordPress.Security.EscapeOutput.OutputNotEscaped)
+ 31 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 31 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 31 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 31 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 31 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 31 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 34 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 34 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 10 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: /Users/keith/Projects/Temp Stuff/Alamos-Gold-ESG-Report-2024/resources/fonts/proximaNova.css
+---------------------------------------------------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+---------------------------------------------------------------------------------------------------------------
+ 120 | ERROR | [x] Additional whitespace found at end of file
+     |       |     (Squiz.WhiteSpace.SuperfluousWhitespace.EndFile)
+---------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+---------------------------------------------------------------------------------------------------------------
+
+
+FILE: /Users/keith/Projects/Temp Stuff/Alamos-Gold-ESG-Report-2024/app/setup.php
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 114 ERRORS AND 16 WARNINGS AFFECTING 73 LINES
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  10 | ERROR   | [x] No space after opening parenthesis is prohibited (WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis)
+  10 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  10 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  10 | ERROR   | [x] No space before closing parenthesis is prohibited (WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis)
+  14 | WARNING | [x] File is being unconditionally included; use "require" instead (PEAR.Files.IncludingFile.UseRequire)
+  21 | ERROR   | [x] Opening parenthesis of a multi-line function call must be the last content on the line
+     |         |     (PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket)
+  21 | ERROR   | [x] Only one argument is allowed per line in a multi-line function call (PEAR.Functions.FunctionCallSignature.MultipleArguments)
+  22 | ERROR   | [x] Line indented incorrectly; expected 1 tabs, found 0 (Generic.WhiteSpace.ScopeIndent.IncorrectExact)
+  22 | ERROR   | [x] Multi-line function call not indented correctly; expected 4 spaces but found 0 (PEAR.Functions.FunctionCallSignature.Indent)
+  23 | WARNING | [ ] Found precision alignment of 2 spaces. (WordPress.WhiteSpace.PrecisionAlignment.Found)
+  24 | WARNING | [ ] Found precision alignment of 2 spaces. (WordPress.WhiteSpace.PrecisionAlignment.Found)
+  25 | ERROR   | [x] Line indented incorrectly; expected at least 1 tabs, found 0 (Generic.WhiteSpace.ScopeIndent.Incorrect)
+  25 | ERROR   | [x] Multi-line function call not indented correctly; expected 4 spaces but found 0 (PEAR.Functions.FunctionCallSignature.Indent)
+  26 | ERROR   | [x] Only one argument is allowed per line in a multi-line function call (PEAR.Functions.FunctionCallSignature.MultipleArguments)
+  26 | ERROR   | [x] Closing parenthesis of a multi-line function call must be on a line by itself (PEAR.Functions.FunctionCallSignature.CloseBracketLine)
+  33 | ERROR   | [x] Opening parenthesis of a multi-line function call must be the last content on the line
+     |         |     (PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket)
+  33 | ERROR   | [x] Only one argument is allowed per line in a multi-line function call (PEAR.Functions.FunctionCallSignature.MultipleArguments)
+  34 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  34 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  37 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  37 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  39 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  39 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  40 | ERROR   | [x] Only one argument is allowed per line in a multi-line function call (PEAR.Functions.FunctionCallSignature.MultipleArguments)
+  40 | ERROR   | [x] Closing parenthesis of a multi-line function call must be on a line by itself (PEAR.Functions.FunctionCallSignature.CloseBracketLine)
+  47 | ERROR   | [x] Opening parenthesis of a multi-line function call must be the last content on the line
+     |         |     (PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket)
+  47 | ERROR   | [x] Only one argument is allowed per line in a multi-line function call (PEAR.Functions.FunctionCallSignature.MultipleArguments)
+  48 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  48 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  50 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  50 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  51 | ERROR   | [x] Only one argument is allowed per line in a multi-line function call (PEAR.Functions.FunctionCallSignature.MultipleArguments)
+  51 | ERROR   | [x] Closing parenthesis of a multi-line function call must be on a line by itself (PEAR.Functions.FunctionCallSignature.CloseBracketLine)
+  58 | ERROR   | [x] Opening parenthesis of a multi-line function call must be the last content on the line
+     |         |     (PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket)
+  58 | ERROR   | [x] Only one argument is allowed per line in a multi-line function call (PEAR.Functions.FunctionCallSignature.MultipleArguments)
+  64 | ERROR   | [x] Opening parenthesis of a multi-line function call must be the last content on the line
+     |         |     (PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket)
+  64 | ERROR   | [x] Only one argument is allowed per line in a multi-line function call (PEAR.Functions.FunctionCallSignature.MultipleArguments)
+  64 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+  69 | ERROR   | [x] Closing parenthesis of a multi-line function call must be on a line by itself (PEAR.Functions.FunctionCallSignature.CloseBracketLine)
+  76 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  76 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  83 | ERROR   | [x] Opening parenthesis of a multi-line function call must be the last content on the line
+     |         |     (PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket)
+  83 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+  84 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  84 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  85 | WARNING | [x] Array double arrow not aligned correctly; expected 2 space(s) between "'footer_navigation'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  85 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  85 | ERROR   | [x] Each array item in a multi-line array declaration must end in a comma (WordPress.Arrays.CommaAfterArrayItem.NoComma)
+  85 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  86 | ERROR   | [x] Closing parenthesis of a multi-line function call must be on a line by itself (PEAR.Functions.FunctionCallSignature.CloseBracketLine)
+  93 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  93 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 100 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 100 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 107 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 107 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 114 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 114 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 121 | ERROR   | [x] Opening parenthesis of a multi-line function call must be the last content on the line
+     |         |     (PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket)
+ 121 | ERROR   | [x] Only one argument is allowed per line in a multi-line function call (PEAR.Functions.FunctionCallSignature.MultipleArguments)
+ 121 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 129 | ERROR   | [x] Closing parenthesis of a multi-line function call must be on a line by itself (PEAR.Functions.FunctionCallSignature.CloseBracketLine)
+ 136 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 136 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 137 | ERROR   | [x] Only one argument is allowed per line in a multi-line function call (PEAR.Functions.FunctionCallSignature.MultipleArguments)
+ 137 | ERROR   | [x] Closing parenthesis of a multi-line function call must be on a line by itself (PEAR.Functions.FunctionCallSignature.CloseBracketLine)
+ 144 | ERROR   | [x] Opening parenthesis of a multi-line function call must be the last content on the line
+     |         |     (PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket)
+ 144 | ERROR   | [x] Only one argument is allowed per line in a multi-line function call (PEAR.Functions.FunctionCallSignature.MultipleArguments)
+ 145 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 147 | WARNING | [x] Array double arrow not aligned correctly; expected 2 space(s) between "'after_widget'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 148 | WARNING | [x] Array double arrow not aligned correctly; expected 2 space(s) between "'before_title'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 149 | WARNING | [x] Array double arrow not aligned correctly; expected 3 space(s) between "'after_title'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 149 | ERROR   | [x] Each array item in a multi-line array declaration must end in a comma (WordPress.Arrays.CommaAfterArrayItem.NoComma)
+ 152 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 154 | WARNING | [x] Array double arrow not aligned correctly; expected 2 space(s) between "'after_widget'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 155 | WARNING | [x] Array double arrow not aligned correctly; expected 2 space(s) between "'before_title'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 156 | WARNING | [x] Array double arrow not aligned correctly; expected 3 space(s) between "'after_title'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 156 | ERROR   | [x] Each array item in a multi-line array declaration must end in a comma (WordPress.Arrays.CommaAfterArrayItem.NoComma)
+ 159 | ERROR   | [x] Opening parenthesis of a multi-line function call must be the last content on the line
+     |         |     (PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket)
+ 159 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 160 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 160 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 161 | WARNING | [x] Array double arrow not aligned correctly; expected 3 space(s) between "'id'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 161 | ERROR   | [x] Each array item in a multi-line array declaration must end in a comma (WordPress.Arrays.CommaAfterArrayItem.NoComma)
+ 162 | ERROR   | [x] Closing parenthesis of a multi-line function call must be on a line by itself (PEAR.Functions.FunctionCallSignature.CloseBracketLine)
+ 164 | ERROR   | [x] Opening parenthesis of a multi-line function call must be the last content on the line
+     |         |     (PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket)
+ 164 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 165 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 165 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 166 | WARNING | [x] Array double arrow not aligned correctly; expected 3 space(s) between "'id'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 166 | ERROR   | [x] Each array item in a multi-line array declaration must end in a comma (WordPress.Arrays.CommaAfterArrayItem.NoComma)
+ 167 | ERROR   | [x] Closing parenthesis of a multi-line function call must be on a line by itself (PEAR.Functions.FunctionCallSignature.CloseBracketLine)
+ 169 | ERROR   | [x] Opening parenthesis of a multi-line function call must be the last content on the line
+     |         |     (PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket)
+ 169 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 170 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 170 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 171 | WARNING | [x] Array double arrow not aligned correctly; expected 3 space(s) between "'id'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 171 | ERROR   | [x] Each array item in a multi-line array declaration must end in a comma (WordPress.Arrays.CommaAfterArrayItem.NoComma)
+ 172 | ERROR   | [x] Closing parenthesis of a multi-line function call must be on a line by itself (PEAR.Functions.FunctionCallSignature.CloseBracketLine)
+ 174 | ERROR   | [x] Opening parenthesis of a multi-line function call must be the last content on the line
+     |         |     (PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket)
+ 174 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 175 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 175 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 176 | WARNING | [x] Array double arrow not aligned correctly; expected 3 space(s) between "'id'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 176 | ERROR   | [x] Each array item in a multi-line array declaration must end in a comma (WordPress.Arrays.CommaAfterArrayItem.NoComma)
+ 177 | ERROR   | [x] Closing parenthesis of a multi-line function call must be on a line by itself (PEAR.Functions.FunctionCallSignature.CloseBracketLine)
+ 178 | ERROR   | [x] Closing parenthesis of a multi-line function call must be on a line by itself (PEAR.Functions.FunctionCallSignature.CloseBracketLine)
+ 182 | ERROR   | [x] There must be exactly one blank line before the tags in a doc comment (Generic.Commenting.DocComment.SpacingBeforeTags)
+ 184 | ERROR   | [x] Additional blank lines found at end of doc comment (Generic.Commenting.DocComment.SpacingAfter)
+ 185 | ERROR   | [x] Opening parenthesis of a multi-line function call must be the last content on the line
+     |         |     (PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket)
+ 185 | ERROR   | [x] Only one argument is allowed per line in a multi-line function call (PEAR.Functions.FunctionCallSignature.MultipleArguments)
+ 186 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 186 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 187 | ERROR   | [x] Closing parenthesis of a multi-line function call must be on a line by itself (PEAR.Functions.FunctionCallSignature.CloseBracketLine)
+ 192 | ERROR   | [x] No space after opening parenthesis is prohibited (WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis)
+ 192 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 192 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 192 | ERROR   | [x] No space before closing parenthesis is prohibited (WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis)
+ 193 | ERROR   | [x] Opening parenthesis of a multi-line function call must be the last content on the line
+     |         |     (PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket)
+ 196 | WARNING | [x] Array double arrow not aligned correctly; expected 2 space(s) between "'menu-slug'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 197 | WARNING | [x] Array double arrow not aligned correctly; expected 3 space(s) between "'icon_url'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 197 | ERROR   | [x] Each array item in a multi-line array declaration must end in a comma (WordPress.Arrays.CommaAfterArrayItem.NoComma)
+ 198 | ERROR   | [x] Closing parenthesis of a multi-line function call must be on a line by itself (PEAR.Functions.FunctionCallSignature.CloseBracketLine)
+ 204 | ERROR   | [x] Opening parenthesis of a multi-line function call must be the last content on the line
+     |         |     (PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket)
+ 204 | ERROR   | [x] Only one argument is allowed per line in a multi-line function call (PEAR.Functions.FunctionCallSignature.MultipleArguments)
+ 205 | ERROR   | [x] Line indented incorrectly; expected 1 tabs, found 0 (Generic.WhiteSpace.ScopeIndent.IncorrectExact)
+ 205 | ERROR   | [x] Multi-line function call not indented correctly; expected 4 spaces but found 0 (PEAR.Functions.FunctionCallSignature.Indent)
+ 217 | ERROR   | [x] Line indented incorrectly; expected at least 1 tabs, found 0 (Generic.WhiteSpace.ScopeIndent.Incorrect)
+ 217 | ERROR   | [x] Multi-line function call not indented correctly; expected 4 spaces but found 0 (PEAR.Functions.FunctionCallSignature.Indent)
+ 218 | ERROR   | [x] Closing parenthesis of a multi-line function call must be on a line by itself (PEAR.Functions.FunctionCallSignature.CloseBracketLine)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 128 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: /Users/keith/Projects/Temp Stuff/Alamos-Gold-ESG-Report-2024/config/view.php
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 15 ERRORS AND 6 WARNINGS AFFECTING 13 LINES
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  3 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 16 | WARNING | [x] Array double arrow not aligned correctly; expected 6 space(s) between "'paths'" and double arrow, but found 1.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 16 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 17 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 17 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 18 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 18 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 19 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 19 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 33 | WARNING | [x] Array double arrow not aligned correctly; expected 3 space(s) between "'compiled'" and double arrow, but found 1.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 33 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 33 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 33 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 33 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 47 | WARNING | [x] Array double arrow not aligned correctly; expected 6 space(s) between "'debug'" and double arrow, but found 1.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 61 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 62 | ERROR   | [ ] Empty line required before block comment (Squiz.Commenting.BlockComment.NoEmptyLineBefore)
+ 63 | WARNING | [ ] Found precision alignment of 1 spaces. (WordPress.WhiteSpace.PrecisionAlignment.Found)
+ 64 | WARNING | [ ] Found precision alignment of 1 spaces. (WordPress.WhiteSpace.PrecisionAlignment.Found)
+ 79 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 80 | WARNING | [ ] This comment is 50% valid code; is this commented out code? (Squiz.PHP.CommentedOutCode.Found)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 17 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: /Users/keith/Projects/Temp Stuff/Alamos-Gold-ESG-Report-2024/app/admin.php
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 26 ERRORS AND 1 WARNING AFFECTING 12 LINES
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  1 | ERROR   | [ ] There must be no blank lines before the file comment (Squiz.Commenting.FileComment.SpacingAfterOpen)
+ 19 | ERROR   | [x] Opening parenthesis of a multi-line function call must be the last content on the line
+    |         |     (PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket)
+ 19 | ERROR   | [x] Only one argument is allowed per line in a multi-line function call (PEAR.Functions.FunctionCallSignature.MultipleArguments)
+ 19 | ERROR   | [x] No space after opening parenthesis is prohibited (WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis)
+ 19 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (Squiz.Functions.FunctionDeclarationArgumentSpacing.SpacingAfterOpen)
+ 19 | ERROR   | [x] No space before closing parenthesis is prohibited (WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis)
+ 20 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 20 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 21 | ERROR   | [x] Opening parenthesis of a multi-line function call must be the last content on the line
+    |         |     (PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket)
+ 21 | ERROR   | [x] Only one argument is allowed per line in a multi-line function call (PEAR.Functions.FunctionCallSignature.MultipleArguments)
+ 21 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 22 | WARNING | [x] Array double arrow not aligned correctly; expected 8 space(s) between "'selector'" and double arrow, but found 1.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 24 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 24 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 25 | ERROR   | [x] Each array item in a multi-line array declaration must end in a comma (WordPress.Arrays.CommaAfterArrayItem.NoComma)
+ 26 | ERROR   | [x] Closing parenthesis of a multi-line function call must be on a line by itself (PEAR.Functions.FunctionCallSignature.CloseBracketLine)
+ 27 | ERROR   | [x] Closing parenthesis of a multi-line function call must be on a line by itself (PEAR.Functions.FunctionCallSignature.CloseBracketLine)
+ 34 | ERROR   | [x] Opening parenthesis of a multi-line function call must be the last content on the line
+    |         |     (PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket)
+ 34 | ERROR   | [x] Only one argument is allowed per line in a multi-line function call (PEAR.Functions.FunctionCallSignature.MultipleArguments)
+ 35 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 35 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 35 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 35 | ERROR   | [x] Missing space after array opener. (WordPress.Arrays.ArrayDeclarationSpacing.NoSpaceAfterArrayOpener)
+ 35 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 35 | ERROR   | [x] Missing space before array closer. (WordPress.Arrays.ArrayDeclarationSpacing.NoSpaceBeforeArrayCloser)
+ 35 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 36 | ERROR   | [x] Closing parenthesis of a multi-line function call must be on a line by itself (PEAR.Functions.FunctionCallSignature.CloseBracketLine)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 26 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: /Users/keith/Projects/Temp Stuff/Alamos-Gold-ESG-Report-2024/app/Include/testimonials.php
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 40 ERRORS AND 15 WARNINGS AFFECTING 23 LINES
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  1 | ERROR   | [ ] There must be no blank lines before the file comment (Squiz.Commenting.FileComment.SpacingAfterOpen)
+  5 | ERROR   | [ ] There must be exactly one blank line after the file comment (Squiz.Commenting.FileComment.SpacingAfterComment)
+  6 | ERROR   | [x] Opening parenthesis of a multi-line function call must be the last content on the line
+    |         |     (PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket)
+  6 | ERROR   | [x] Only one argument is allowed per line in a multi-line function call (PEAR.Functions.FunctionCallSignature.MultipleArguments)
+ 12 | WARNING | [x] Array double arrow not aligned correctly; expected 15 space(s) between "'name'" and double arrow, but found 16.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 12 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 12 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 13 | WARNING | [x] Array double arrow not aligned correctly; expected 6 space(s) between "'singular_name'" and double arrow, but found 7.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 13 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 13 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 14 | WARNING | [x] Array double arrow not aligned correctly; expected 10 space(s) between "'menu_name'" and double arrow, but found 11.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 14 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 14 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 15 | WARNING | [x] Array double arrow not aligned correctly; expected 2 space(s) between "'parent_item_colon'" and double arrow, but found 3.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 15 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 15 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 16 | WARNING | [x] Array double arrow not aligned correctly; expected 10 space(s) between "'all_items'" and double arrow, but found 11.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 16 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 16 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 17 | WARNING | [x] Array double arrow not aligned correctly; expected 10 space(s) between "'view_item'" and double arrow, but found 11.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 17 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 17 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 18 | WARNING | [x] Array double arrow not aligned correctly; expected 7 space(s) between "'add_new_item'" and double arrow, but found 8.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 18 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 18 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 19 | WARNING | [x] Array double arrow not aligned correctly; expected 12 space(s) between "'add_new'" and double arrow, but found 13.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 19 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 19 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 20 | WARNING | [x] Array double arrow not aligned correctly; expected 10 space(s) between "'edit_item'" and double arrow, but found 11.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 20 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 20 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 21 | WARNING | [x] Array double arrow not aligned correctly; expected 8 space(s) between "'update_item'" and double arrow, but found 9.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 21 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 21 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 22 | WARNING | [x] Array double arrow not aligned correctly; expected 7 space(s) between "'search_items'" and double arrow, but found 8.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 22 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 22 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 23 | WARNING | [x] Array double arrow not aligned correctly; expected 10 space(s) between "'not_found'" and double arrow, but found 11.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 23 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 23 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 24 | WARNING | [x] Array double arrow not aligned correctly; expected 1 space(s) between "'not_found_in_trash'" and double arrow, but found 2.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 24 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 24 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 28 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 28 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 29 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 29 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 31 | ERROR   | [x] Missing space after array opener. (WordPress.Arrays.ArrayDeclarationSpacing.NoSpaceAfterArrayOpener)
+ 31 | ERROR   | [x] Missing space before array closer. (WordPress.Arrays.ArrayDeclarationSpacing.NoSpaceBeforeArrayCloser)
+ 42 | WARNING | [ ] This comment is 67% valid code; is this commented out code? (Squiz.PHP.CommentedOutCode.Found)
+ 44 | WARNING | [x] Array double arrow not aligned correctly; expected 11 space(s) between "'menu_icon'" and double arrow, but found 1.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 47 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 47 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 48 | ERROR   | [x] Only one argument is allowed per line in a multi-line function call (PEAR.Functions.FunctionCallSignature.MultipleArguments)
+ 48 | ERROR   | [x] Closing parenthesis of a multi-line function call must be on a line by itself (PEAR.Functions.FunctionCallSignature.CloseBracketLine)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 52 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: /Users/keith/Projects/Temp Stuff/Alamos-Gold-ESG-Report-2024/config/assets.php
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 13 ERRORS AND 4 WARNINGS AFFECTING 10 LINES
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  3 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 16 | WARNING | [x] Array double arrow not aligned correctly; expected 3 space(s) between "'default'" and double arrow, but found 1.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 33 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 34 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 35 | WARNING | [x] Array double arrow not aligned correctly; expected 4 space(s) between "'path'" and double arrow, but found 1.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 35 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 35 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 36 | WARNING | [x] Array double arrow not aligned correctly; expected 5 space(s) between "'url'" and double arrow, but found 1.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 36 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 36 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 37 | WARNING | [x] Array double arrow not aligned correctly; expected 2 space(s) between "'assets'" and double arrow, but found 1.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 37 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 37 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 38 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 38 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 39 | ERROR   | [x] Each array item in a multi-line array declaration must end in a comma (WordPress.Arrays.CommaAfterArrayItem.NoComma)
+ 40 | ERROR   | [x] Each array item in a multi-line array declaration must end in a comma (WordPress.Arrays.CommaAfterArrayItem.NoComma)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 17 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: /Users/keith/Projects/Temp Stuff/Alamos-Gold-ESG-Report-2024/config/services.php
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 18 ERRORS AND 6 WARNINGS AFFECTING 12 LINES
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  3 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 17 | WARNING | [x] Array double arrow not aligned correctly; expected 2 space(s) between "'mailgun'" and double arrow, but found 1.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 17 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 18 | WARNING | [x] Array double arrow not aligned correctly; expected 3 space(s) between "'domain'" and double arrow, but found 1.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 18 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 18 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 19 | WARNING | [x] Array double arrow not aligned correctly; expected 3 space(s) between "'secret'" and double arrow, but found 1.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 19 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 19 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 20 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 20 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 21 | WARNING | [x] Array double arrow not aligned correctly; expected 3 space(s) between "'scheme'" and double arrow, but found 1.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 24 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 25 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 25 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 28 | WARNING | [x] Array double arrow not aligned correctly; expected 6 space(s) between "'ses'" and double arrow, but found 1.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 28 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 29 | WARNING | [x] Array double arrow not aligned correctly; expected 4 space(s) between "'key'" and double arrow, but found 1.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 29 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 29 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 30 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 30 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 31 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 31 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 24 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: /Users/keith/Projects/Temp Stuff/Alamos-Gold-ESG-Report-2024/functions.php
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 112 ERRORS AND 5 WARNINGS AFFECTING 38 LINES
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   3 | ERROR   | [ ] Empty line not required before block comment (Squiz.Commenting.BlockComment.HasEmptyLineBefore)
+  14 | ERROR   | [x] No space after opening parenthesis is prohibited (WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis)
+  14 | ERROR   | [x] Expected 1 space before "!"; 0 found (WordPress.WhiteSpace.OperatorSpacing.NoSpaceBefore)
+  14 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  14 | WARNING | [ ] Variable assignment found within a condition. Did you mean to do a comparison? (WordPress.CodeAnalysis.AssignmentInCondition.Found)
+  14 | ERROR   | [ ] Assignments must be the first block of code on a line (Squiz.PHP.DisallowMultipleAssignments.FoundInControlStructure)
+  14 | ERROR   | [x] Concat operator must be surrounded by a single space (Squiz.Strings.ConcatenationSpacing.PaddingFound)
+  14 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  14 | ERROR   | [x] No space before closing parenthesis is prohibited (WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis)
+  15 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  15 | ERROR   | [ ] All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '__'.
+     |         |     (WordPress.Security.EscapeOutput.OutputNotEscaped)
+  15 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  15 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  15 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  32 | ERROR   | [x] No space after opening parenthesis is prohibited (WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis)
+  32 | ERROR   | [x] Expected 1 space before "!"; 0 found (WordPress.WhiteSpace.OperatorSpacing.NoSpaceBefore)
+  32 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  32 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  32 | ERROR   | [x] No space before closing parenthesis is prohibited (WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis)
+  34 | ERROR   | [ ] All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '__'.
+     |         |     (WordPress.Security.EscapeOutput.OutputNotEscaped)
+  34 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  34 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  36 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+  37 | WARNING | [x] Array double arrow not aligned correctly; expected 2 space(s) between "'link_url'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  38 | ERROR   | [ ] All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '__'.
+     |         |     (WordPress.Security.EscapeOutput.OutputNotEscaped)
+  38 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  38 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  57 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  57 | ERROR   | [x] Missing space after array opener. (WordPress.Arrays.ArrayDeclarationSpacing.NoSpaceAfterArrayOpener)
+  57 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+  57 | ERROR   | [x] Missing space before array closer. (WordPress.Arrays.ArrayDeclarationSpacing.NoSpaceBeforeArrayCloser)
+  57 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  58 | ERROR   | [x] Opening parenthesis of a multi-line function call must be the last content on the line
+     |         |     (PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket)
+  58 | ERROR   | [x] No space after opening parenthesis is prohibited (WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis)
+  58 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (Squiz.Functions.FunctionDeclarationArgumentSpacing.SpacingAfterOpen)
+  58 | ERROR   | [x] No space before closing parenthesis is prohibited (WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis)
+  59 | ERROR   | [x] No space after opening parenthesis is prohibited (WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis)
+  59 | ERROR   | [x] Expected 1 space before "!"; 0 found (WordPress.WhiteSpace.OperatorSpacing.NoSpaceBefore)
+  59 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  59 | WARNING | [ ] Variable assignment found within a condition. Did you mean to do a comparison? (WordPress.CodeAnalysis.AssignmentInCondition.Found)
+  59 | ERROR   | [ ] Assignments must be the first block of code on a line (Squiz.PHP.DisallowMultipleAssignments.FoundInControlStructure)
+  59 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  59 | ERROR   | [x] No space before closing parenthesis is prohibited (WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis)
+  62 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  62 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  62 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  62 | ERROR   | [ ] All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found '$file'.
+     |         |     (WordPress.Security.EscapeOutput.OutputNotEscaped)
+  62 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  65 | ERROR   | [x] Closing parenthesis of a multi-line function call must be on a line by itself (PEAR.Functions.FunctionCallSignature.CloseBracketLine)
+  70 | ERROR   | [x] Opening parenthesis of a multi-line function call must be the last content on the line
+     |         |     (PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket)
+  70 | ERROR   | [x] Only one argument is allowed per line in a multi-line function call (PEAR.Functions.FunctionCallSignature.MultipleArguments)
+  71 | ERROR   | [x] Line indented incorrectly; expected at least 1 tabs, found 0 (Generic.WhiteSpace.ScopeIndent.Incorrect)
+  71 | ERROR   | [x] Multi-line function call not indented correctly; expected 4 spaces but found 0 (PEAR.Functions.FunctionCallSignature.Indent)
+  71 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  71 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+  71 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  72 | ERROR   | [x] Line indented incorrectly; expected at least 1 tabs, found 0 (Generic.WhiteSpace.ScopeIndent.Incorrect)
+  72 | ERROR   | [x] Multi-line function call not indented correctly; expected 4 spaces but found 0 (PEAR.Functions.FunctionCallSignature.Indent)
+  72 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  72 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+  72 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  74 | ERROR   | [x] Line indented incorrectly; expected at least 1 tabs, found 0 (Generic.WhiteSpace.ScopeIndent.Incorrect)
+  74 | ERROR   | [x] Multi-line function call not indented correctly; expected 4 spaces but found 0 (PEAR.Functions.FunctionCallSignature.Indent)
+  75 | ERROR   | [x] Line indented incorrectly; expected at least 1 tabs, found 0 (Generic.WhiteSpace.ScopeIndent.Incorrect)
+  75 | ERROR   | [x] Multi-line function call not indented correctly; expected 4 spaces but found 0 (PEAR.Functions.FunctionCallSignature.Indent)
+  75 | ERROR   | [x] Opening parenthesis of a multi-line function call must be the last content on the line
+     |         |     (PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket)
+  75 | ERROR   | [x] Only one argument is allowed per line in a multi-line function call (PEAR.Functions.FunctionCallSignature.MultipleArguments)
+  76 | ERROR   | [x] Line indented incorrectly; expected at least 2 tabs, found 0 (Generic.WhiteSpace.ScopeIndent.Incorrect)
+  76 | ERROR   | [x] Multi-line function call not indented correctly; expected 4 spaces but found 0 (PEAR.Functions.FunctionCallSignature.Indent)
+  76 | ERROR   | [x] Multi-line function call not indented correctly; expected 4 spaces but found 0 (PEAR.Functions.FunctionCallSignature.Indent)
+  81 | ERROR   | [x] Line indented incorrectly; expected 1 tabs, found 0 (Generic.WhiteSpace.ScopeIndent.IncorrectExact)
+  81 | ERROR   | [x] Multi-line function call not indented correctly; expected 4 spaces but found 0 (PEAR.Functions.FunctionCallSignature.Indent)
+  81 | ERROR   | [x] Only one argument is allowed per line in a multi-line function call (PEAR.Functions.FunctionCallSignature.MultipleArguments)
+  81 | ERROR   | [x] Closing parenthesis of a multi-line function call must be on a line by itself (PEAR.Functions.FunctionCallSignature.CloseBracketLine)
+  82 | ERROR   | [x] Closing parenthesis of a multi-line function call must be on a line by itself (PEAR.Functions.FunctionCallSignature.CloseBracketLine)
+  85 | ERROR   | [x] Opening parenthesis of a multi-line function call must be the last content on the line
+     |         |     (PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket)
+  85 | ERROR   | [x] Only one argument is allowed per line in a multi-line function call (PEAR.Functions.FunctionCallSignature.MultipleArguments)
+  85 | ERROR   | [x] No space after opening parenthesis is prohibited (WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis)
+  85 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (Squiz.Functions.FunctionDeclarationArgumentSpacing.SpacingAfterOpen)
+  85 | ERROR   | [x] No space before closing parenthesis is prohibited (WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis)
+  87 | ERROR   | [x] Line indented incorrectly; expected at least 1 tabs, found 0 (Generic.WhiteSpace.ScopeIndent.Incorrect)
+  87 | ERROR   | [x] Multi-line function call not indented correctly; expected 4 spaces but found 0 (PEAR.Functions.FunctionCallSignature.Indent)
+  88 | ERROR   | [x] Line indented incorrectly; expected 1 tabs, found 0 (Generic.WhiteSpace.ScopeIndent.IncorrectExact)
+  88 | ERROR   | [x] Multi-line function call not indented correctly; expected 4 spaces but found 0 (PEAR.Functions.FunctionCallSignature.Indent)
+  89 | ERROR   | [x] Line indented incorrectly; expected at least 2 tabs, found 0 (Generic.WhiteSpace.ScopeIndent.Incorrect)
+  89 | ERROR   | [x] Multi-line function call not indented correctly; expected 4 spaces but found 0 (PEAR.Functions.FunctionCallSignature.Indent)
+  90 | ERROR   | [x] Line indented incorrectly; expected 1 tabs, found 0 (Generic.WhiteSpace.ScopeIndent.IncorrectExact)
+  90 | ERROR   | [x] Multi-line function call not indented correctly; expected 4 spaces but found 0 (PEAR.Functions.FunctionCallSignature.Indent)
+  92 | ERROR   | [x] Line indented incorrectly; expected at least 1 tabs, found 0 (Generic.WhiteSpace.ScopeIndent.Incorrect)
+  92 | ERROR   | [x] Multi-line function call not indented correctly; expected 4 spaces but found 0 (PEAR.Functions.FunctionCallSignature.Indent)
+  94 | ERROR   | [x] Line indented incorrectly; expected at least 1 tabs, found 0 (Generic.WhiteSpace.ScopeIndent.Incorrect)
+  94 | ERROR   | [x] Multi-line function call not indented correctly; expected 4 spaces but found 0 (PEAR.Functions.FunctionCallSignature.Indent)
+  94 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+  95 | ERROR   | [x] Line indented incorrectly; expected at least 1 tabs, found 0 (Generic.WhiteSpace.ScopeIndent.Incorrect)
+  95 | ERROR   | [x] Multi-line function call not indented correctly; expected 4 spaces but found 0 (PEAR.Functions.FunctionCallSignature.Indent)
+  95 | ERROR   | [x] Array item not aligned correctly; expected 4 spaces but found 0 (WordPress.Arrays.ArrayIndentation.ItemNotAligned)
+  95 | WARNING | [x] Array double arrow not aligned correctly; expected 13 space(s) between "'ext'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  96 | ERROR   | [x] Line indented incorrectly; expected at least 1 tabs, found 0 (Generic.WhiteSpace.ScopeIndent.Incorrect)
+  96 | ERROR   | [x] Multi-line function call not indented correctly; expected 4 spaces but found 0 (PEAR.Functions.FunctionCallSignature.Indent)
+  96 | ERROR   | [x] Array item not aligned correctly; expected 4 spaces but found 0 (WordPress.Arrays.ArrayIndentation.ItemNotAligned)
+  96 | WARNING | [x] Array double arrow not aligned correctly; expected 12 space(s) between "'type'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  97 | ERROR   | [x] Line indented incorrectly; expected at least 1 tabs, found 0 (Generic.WhiteSpace.ScopeIndent.Incorrect)
+  97 | ERROR   | [x] Multi-line function call not indented correctly; expected 4 spaces but found 0 (PEAR.Functions.FunctionCallSignature.Indent)
+  97 | ERROR   | [x] Array item not aligned correctly; expected 4 spaces but found 0 (WordPress.Arrays.ArrayIndentation.ItemNotAligned)
+  97 | ERROR   | [x] Each array item in a multi-line array declaration must end in a comma (WordPress.Arrays.CommaAfterArrayItem.NoComma)
+  98 | ERROR   | [x] Line indented incorrectly; expected at least 1 tabs, found 0 (Generic.WhiteSpace.ScopeIndent.Incorrect)
+  98 | ERROR   | [x] Multi-line function call not indented correctly; expected 4 spaces but found 0 (PEAR.Functions.FunctionCallSignature.Indent)
+ 100 | ERROR   | [x] Only one argument is allowed per line in a multi-line function call (PEAR.Functions.FunctionCallSignature.MultipleArguments)
+ 100 | ERROR   | [x] Only one argument is allowed per line in a multi-line function call (PEAR.Functions.FunctionCallSignature.MultipleArguments)
+ 100 | ERROR   | [x] Closing parenthesis of a multi-line function call must be on a line by itself (PEAR.Functions.FunctionCallSignature.CloseBracketLine)
+ 102 | ERROR   | [ ] Missing doc comment for function cc_mime_types() (Squiz.Commenting.FunctionComment.Missing)
+ 102 | ERROR   | [x] Expected 1 space before opening brace; found 0 (Generic.Functions.OpeningFunctionBraceKernighanRitchie.SpaceBeforeBrace)
+ 102 | ERROR   | [x] Space between opening control structure and closing parenthesis is required
+     |         |     (WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterCloseParenthesis)
+ 103 | ERROR   | [x] Line indented incorrectly; expected at least 1 tabs, found 0 (Generic.WhiteSpace.ScopeIndent.Incorrect)
+ 104 | ERROR   | [x] Line indented incorrectly; expected at least 1 tabs, found 0 (Generic.WhiteSpace.ScopeIndent.Incorrect)
+ 108 | ERROR   | [ ] Missing doc comment for function fix_svg() (Squiz.Commenting.FunctionComment.Missing)
+ 109 | ERROR   | [x] Line indented incorrectly; expected at least 1 tabs, found 0 (Generic.WhiteSpace.ScopeIndent.Incorrect)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 106 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: /Users/keith/Projects/Temp Stuff/Alamos-Gold-ESG-Report-2024/resources/styles/fonts/proximaNova.css
+-------------------------------------------------------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+-------------------------------------------------------------------------------------------------------------------
+   1 | ERROR | [x] Additional whitespace found at start of file
+     |       |     (Squiz.WhiteSpace.SuperfluousWhitespace.StartFile)
+ 120 | ERROR | [x] Additional whitespace found at end of file (Squiz.WhiteSpace.SuperfluousWhitespace.EndFile)
+-------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+-------------------------------------------------------------------------------------------------------------------
+
+
+FILE: /Users/keith/Projects/Temp Stuff/Alamos-Gold-ESG-Report-2024/config/filesystems.php
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 33 ERRORS AND 18 WARNINGS AFFECTING 23 LINES
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  3 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 16 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 16 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 31 | WARNING | [x] Array double arrow not aligned correctly; expected 3 space(s) between "'disks'" and double arrow, but found 1.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 31 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 33 | WARNING | [x] Array double arrow not aligned correctly; expected 2 space(s) between "'local'" and double arrow, but found 1.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 33 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 35 | WARNING | [x] Array double arrow not aligned correctly; expected 3 space(s) between "'root'" and double arrow, but found 1.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 35 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 35 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 36 | WARNING | [x] Array double arrow not aligned correctly; expected 2 space(s) between "'throw'" and double arrow, but found 1.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 39 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 40 | WARNING | [x] Array double arrow not aligned correctly; expected 5 space(s) between "'driver'" and double arrow, but found 1.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 41 | WARNING | [x] Array double arrow not aligned correctly; expected 7 space(s) between "'root'" and double arrow, but found 1.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 41 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 41 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 42 | WARNING | [x] Array double arrow not aligned correctly; expected 8 space(s) between "'url'" and double arrow, but found 1.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 42 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 42 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 42 | ERROR   | [x] Concat operator must be surrounded by a single space (Squiz.Strings.ConcatenationSpacing.PaddingFound)
+ 44 | WARNING | [x] Array double arrow not aligned correctly; expected 6 space(s) between "'throw'" and double arrow, but found 1.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 47 | WARNING | [x] Array double arrow not aligned correctly; expected 5 space(s) between "'s3'" and double arrow, but found 1.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 47 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 48 | WARNING | [x] Array double arrow not aligned correctly; expected 18 space(s) between "'driver'" and double arrow, but found 1.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 49 | WARNING | [x] Array double arrow not aligned correctly; expected 21 space(s) between "'key'" and double arrow, but found 1.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 49 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 49 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 50 | WARNING | [x] Array double arrow not aligned correctly; expected 18 space(s) between "'secret'" and double arrow, but found 1.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 50 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 50 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 51 | WARNING | [x] Array double arrow not aligned correctly; expected 18 space(s) between "'region'" and double arrow, but found 1.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 51 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 51 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 52 | WARNING | [x] Array double arrow not aligned correctly; expected 18 space(s) between "'bucket'" and double arrow, but found 1.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 52 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 52 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 53 | WARNING | [x] Array double arrow not aligned correctly; expected 21 space(s) between "'url'" and double arrow, but found 1.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 53 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 53 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 54 | WARNING | [x] Array double arrow not aligned correctly; expected 16 space(s) between "'endpoint'" and double arrow, but found 1.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 54 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 54 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 55 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 55 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 56 | WARNING | [x] Array double arrow not aligned correctly; expected 19 space(s) between "'throw'" and double arrow, but found 1.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 72 | WARNING | [x] Array double arrow not aligned correctly; expected 3 space(s) between "'links'" and double arrow, but found 1.
+    |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 72 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 73 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 73 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 73 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 73 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 51 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: /Users/keith/Projects/Temp Stuff/Alamos-Gold-ESG-Report-2024/resources/views/blocks/alamos-carousel.blade.php
+----------------------------------------------------------------------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 3 LINES
+----------------------------------------------------------------------------------------------------------------------------------
+ 70 | ERROR | Stylesheets must be registered/enqueued via wp_enqueue_style
+    |       | (WordPress.WP.EnqueuedResources.NonEnqueuedStylesheet)
+ 71 | ERROR | Scripts must be registered/enqueued via wp_enqueue_script (WordPress.WP.EnqueuedResources.NonEnqueuedScript)
+ 73 | ERROR | Scripts must be registered/enqueued via wp_enqueue_script (WordPress.WP.EnqueuedResources.NonEnqueuedScript)
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: /Users/keith/Projects/Temp Stuff/Alamos-Gold-ESG-Report-2024/config/session.php
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 23 ERRORS AND 14 WARNINGS AFFECTING 16 LINES
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   5 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+  21 | WARNING | [x] Array double arrow not aligned correctly; expected 10 space(s) between "'driver'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  21 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  21 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  34 | WARNING | [x] Array double arrow not aligned correctly; expected 8 space(s) between "'lifetime'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  34 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  34 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  49 | WARNING | [x] Array double arrow not aligned correctly; expected 9 space(s) between "'encrypt'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  62 | WARNING | [x] Array double arrow not aligned correctly; expected 11 space(s) between "'files'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  62 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  62 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  75 | WARNING | [x] Array double arrow not aligned correctly; expected 6 space(s) between "'connection'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  75 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  75 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  88 | WARNING | [x] Array double arrow not aligned correctly; expected 11 space(s) between "'table'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 103 | WARNING | [x] Array double arrow not aligned correctly; expected 11 space(s) between "'store'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 103 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 103 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 116 | WARNING | [x] Array double arrow not aligned correctly; expected 9 space(s) between "'lottery'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 116 | ERROR   | [x] Missing space after array opener. (WordPress.Arrays.ArrayDeclarationSpacing.NoSpaceAfterArrayOpener)
+ 116 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 116 | ERROR   | [x] Missing space before array closer. (WordPress.Arrays.ArrayDeclarationSpacing.NoSpaceBeforeArrayCloser)
+ 129 | WARNING | [x] Array double arrow not aligned correctly; expected 10 space(s) between "'cookie'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 131 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 131 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 131 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 131 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 131 | ERROR   | [x] Concat operator must be surrounded by a single space (Squiz.Strings.ConcatenationSpacing.PaddingFound)
+ 145 | WARNING | [x] Array double arrow not aligned correctly; expected 12 space(s) between "'path'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 158 | WARNING | [x] Array double arrow not aligned correctly; expected 10 space(s) between "'domain'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 158 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 158 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 171 | WARNING | [x] Array double arrow not aligned correctly; expected 10 space(s) between "'secure'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 171 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 171 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 184 | WARNING | [x] Array double arrow not aligned correctly; expected 7 space(s) between "'http_only'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 199 | WARNING | [x] Array double arrow not aligned correctly; expected 7 space(s) between "'same_site'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 37 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: /Users/keith/Projects/Temp Stuff/Alamos-Gold-ESG-Report-2024/config/logging.php
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 61 ERRORS AND 35 WARNINGS AFFECTING 43 LINES
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   7 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+  20 | WARNING | [x] Array double arrow not aligned correctly; expected 6 space(s) between "'default'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  20 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  20 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  20 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  20 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  33 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+  34 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  34 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  35 | WARNING | [x] Array double arrow not aligned correctly; expected 3 space(s) between "'trace'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  53 | WARNING | [x] Array double arrow not aligned correctly; expected 5 space(s) between "'channels'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  53 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+  54 | WARNING | [x] Array double arrow not aligned correctly; expected 6 space(s) between "'stack'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  54 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+  55 | WARNING | [x] Array double arrow not aligned correctly; expected 12 space(s) between "'driver'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  56 | WARNING | [x] Array double arrow not aligned correctly; expected 10 space(s) between "'channels'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  56 | ERROR   | [x] Missing space after array opener. (WordPress.Arrays.ArrayDeclarationSpacing.NoSpaceAfterArrayOpener)
+  56 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+  56 | ERROR   | [x] Missing space before array closer. (WordPress.Arrays.ArrayDeclarationSpacing.NoSpaceBeforeArrayCloser)
+  60 | WARNING | [x] Array double arrow not aligned correctly; expected 5 space(s) between "'single'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  60 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+  62 | WARNING | [x] Array double arrow not aligned correctly; expected 3 space(s) between "'path'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  62 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  62 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  63 | WARNING | [x] Array double arrow not aligned correctly; expected 2 space(s) between "'level'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  63 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  63 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  66 | WARNING | [x] Array double arrow not aligned correctly; expected 6 space(s) between "'daily'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  66 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+  68 | WARNING | [x] Array double arrow not aligned correctly; expected 3 space(s) between "'path'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  68 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  68 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  69 | WARNING | [x] Array double arrow not aligned correctly; expected 2 space(s) between "'level'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  69 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  69 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  70 | WARNING | [x] Array double arrow not aligned correctly; expected 3 space(s) between "'days'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  73 | WARNING | [x] Array double arrow not aligned correctly; expected 6 space(s) between "'slack'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  73 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+  74 | WARNING | [x] Array double arrow not aligned correctly; expected 3 space(s) between "'driver'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  75 | WARNING | [x] Array double arrow not aligned correctly; expected 6 space(s) between "'url'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  75 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  75 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  77 | WARNING | [x] Array double arrow not aligned correctly; expected 4 space(s) between "'emoji'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  78 | WARNING | [x] Array double arrow not aligned correctly; expected 4 space(s) between "'level'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  78 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  78 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  81 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+  82 | WARNING | [x] Array double arrow not aligned correctly; expected 7 space(s) between "'driver'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  83 | WARNING | [x] Array double arrow not aligned correctly; expected 8 space(s) between "'level'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  83 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  83 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  84 | WARNING | [x] Array double arrow not aligned correctly; expected 6 space(s) between "'handler'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  84 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  84 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  85 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+  86 | WARNING | [x] Array double arrow not aligned correctly; expected 13 space(s) between "'host'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  86 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  86 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  87 | WARNING | [x] Array double arrow not aligned correctly; expected 13 space(s) between "'port'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  87 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  87 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  88 | ERROR   | [x] Concat operator must be surrounded by a single space (Squiz.Strings.ConcatenationSpacing.PaddingFound)
+  88 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  88 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  88 | ERROR   | [x] Concat operator must be surrounded by a single space (Squiz.Strings.ConcatenationSpacing.PaddingFound)
+  88 | ERROR   | [x] Concat operator must be surrounded by a single space (Squiz.Strings.ConcatenationSpacing.PaddingFound)
+  88 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  88 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  92 | WARNING | [x] Array double arrow not aligned correctly; expected 5 space(s) between "'stderr'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  92 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+  93 | WARNING | [x] Array double arrow not aligned correctly; expected 4 space(s) between "'driver'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  94 | WARNING | [x] Array double arrow not aligned correctly; expected 5 space(s) between "'level'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  94 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  94 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  95 | WARNING | [x] Array double arrow not aligned correctly; expected 3 space(s) between "'handler'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  96 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  96 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  97 | WARNING | [x] Array double arrow not aligned correctly; expected 6 space(s) between "'with'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  97 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 102 | WARNING | [x] Array double arrow not aligned correctly; expected 5 space(s) between "'syslog'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 102 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 104 | WARNING | [x] Array double arrow not aligned correctly; expected 2 space(s) between "'level'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 104 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 104 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 107 | WARNING | [x] Array double arrow not aligned correctly; expected 3 space(s) between "'errorlog'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 107 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 109 | WARNING | [x] Array double arrow not aligned correctly; expected 2 space(s) between "'level'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 109 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 109 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 112 | WARNING | [x] Array double arrow not aligned correctly; expected 7 space(s) between "'null'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 112 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 113 | WARNING | [x] Array double arrow not aligned correctly; expected 2 space(s) between "'driver'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 117 | WARNING | [x] Array double arrow not aligned correctly; expected 2 space(s) between "'emergency'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 117 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 118 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 118 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 96 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: /Users/keith/Projects/Temp Stuff/Alamos-Gold-ESG-Report-2024/resources/views/blocks/alamos-map.blade.php
+----------------------------------------------------------------------------------------------------------------------------------
+FOUND 6 ERRORS AFFECTING 6 LINES
+----------------------------------------------------------------------------------------------------------------------------------
+ 21 | ERROR | Scripts must be registered/enqueued via wp_enqueue_script (WordPress.WP.EnqueuedResources.NonEnqueuedScript)
+ 22 | ERROR | Stylesheets must be registered/enqueued via wp_enqueue_style
+    |       | (WordPress.WP.EnqueuedResources.NonEnqueuedStylesheet)
+ 24 | ERROR | Stylesheets must be registered/enqueued via wp_enqueue_style
+    |       | (WordPress.WP.EnqueuedResources.NonEnqueuedStylesheet)
+ 25 | ERROR | Stylesheets must be registered/enqueued via wp_enqueue_style
+    |       | (WordPress.WP.EnqueuedResources.NonEnqueuedStylesheet)
+ 26 | ERROR | Scripts must be registered/enqueued via wp_enqueue_script (WordPress.WP.EnqueuedResources.NonEnqueuedScript)
+ 28 | ERROR | Scripts must be registered/enqueued via wp_enqueue_script (WordPress.WP.EnqueuedResources.NonEnqueuedScript)
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: /Users/keith/Projects/Temp Stuff/Alamos-Gold-ESG-Report-2024/config/app.php
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 18 ERRORS AND 15 WARNINGS AFFECTING 17 LINES
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   7 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+  20 | WARNING | [x] Array double arrow not aligned correctly; expected 12 space(s) between "'name'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  20 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  20 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  33 | WARNING | [x] Array double arrow not aligned correctly; expected 13 space(s) between "'env'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  33 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  33 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  33 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  33 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  46 | WARNING | [x] Array double arrow not aligned correctly; expected 11 space(s) between "'debug'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  59 | WARNING | [x] Array double arrow not aligned correctly; expected 13 space(s) between "'url'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  59 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  59 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  72 | WARNING | [x] Array double arrow not aligned correctly; expected 8 space(s) between "'timezone'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+  72 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+  72 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+  85 | WARNING | [x] Array double arrow not aligned correctly; expected 10 space(s) between "'locale'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 111 | WARNING | [x] Array double arrow not aligned correctly; expected 4 space(s) between "'faker_locale'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 124 | WARNING | [x] Array double arrow not aligned correctly; expected 13 space(s) between "'key'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 124 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket)
+ 124 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0 found (PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket)
+ 126 | WARNING | [x] Array double arrow not aligned correctly; expected 10 space(s) between "'cipher'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 141 | WARNING | [x] Array double arrow not aligned correctly; expected 5 space(s) between "'maintenance'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 141 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 143 | WARNING | [ ] This comment is 67% valid code; is this commented out code? (Squiz.PHP.CommentedOutCode.Found)
+ 157 | WARNING | [x] Array double arrow not aligned correctly; expected 7 space(s) between "'providers'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 157 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 194 | WARNING | [ ] This comment is 50% valid code; is this commented out code? (Squiz.PHP.CommentedOutCode.Found)
+ 209 | WARNING | [x] Array double arrow not aligned correctly; expected 9 space(s) between "'aliases'" and double arrow, but found 1.
+     |         |     (WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned)
+ 209 | ERROR   | [x] Opening parenthesis of a multi-line function call must be the last content on the line
+     |         |     (PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket)
+ 209 | ERROR   | [x] Short array syntax is not allowed (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 210 | WARNING | [ ] This comment is 50% valid code; is this commented out code? (Squiz.PHP.CommentedOutCode.Found)
+ 211 | ERROR   | [x] Closing parenthesis of a multi-line function call must be on a line by itself (PEAR.Functions.FunctionCallSignature.CloseBracketLine)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 30 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: /Users/keith/Projects/Temp Stuff/Alamos-Gold-ESG-Report-2024/resources/views/blocks/bar-chart.blade.php
+---------------------------------------------------------------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+---------------------------------------------------------------------------------------------------------------------------
+ 88 | ERROR | Scripts must be registered/enqueued via wp_enqueue_script
+    |       | (WordPress.WP.EnqueuedResources.NonEnqueuedScript)
+ 89 | ERROR | Scripts must be registered/enqueued via wp_enqueue_script
+    |       | (WordPress.WP.EnqueuedResources.NonEnqueuedScript)
+---------------------------------------------------------------------------------------------------------------------------
+
+
