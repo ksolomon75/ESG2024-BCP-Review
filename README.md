@@ -29,10 +29,10 @@ Each folder containing functional code is represented in this review (including 
 
 The testing method for this project involves a combination of automated and manual testing approaches:
 
-1. **Automated Testing**: Utilize `phpcs` with the Standard and WordPress coding standards packages for testing PHP code (with certain exceptions, as seen in the [.phpcs.xml](.phpcs.xml) file), ensuring adherence to coding standards.
-   - See the [phpcs-results.txt](`phpcs-results.txt`) file for the results after running `phpcs`.
+1. **Automated Testing**: Utilize `phpcs` with the Standard and WordPress coding standards packages for testing PHP code (with certain exceptions, as seen in the [`.phpcs.xml`](.phpcs.xml) file), ensuring adherence to coding standards.  Any entry with `[x]` in the third column can be automatically fixed by `phpcbf`.
+   - See the [`phpcs-results.txt`](phpcs-results.txt) file for the results after running `phpcs`.
 2. **Automated Fixes**: Utilize `phpcbf` with the same standards as `phpcs` to automatically fix many of the issues identified by `phpcs`.
-   - See the [phpcs-results-fixed.txt](`phpcs-results-fixed.txt`) file for the results after running `phpcbf`.
+   - See the [`phpcs-results-fixed.txt`](phpcs-results-fixed.txt) file for the results after running `phpcbf`.
 3. **Manual Code Reviews**: Review each file manually to ensure compliance with coding standards and best practices (`phpcs` doesn't catch everything, and doesn't catch problems in Blade directives). This includes checking for proper formatting, adherence to the separation of concerns, and the use of meaningful variable names.
 
 ## Review Summary
