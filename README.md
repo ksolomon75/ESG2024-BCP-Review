@@ -8,14 +8,16 @@ The output from the `phpcs` linter is also included, showing coding standard vio
 
 ## Project Structure
 
-Each folder containing functional code is represented in this review (including the root folder). Each folder (except for the root) contains its own README file, documenting areas for improvement and listing the files reviewed. The root folder provides a summary of the findings and recommendations for each area.
+Each folder containing functional code is represented in this review (including the theme root folder). Each folder contains its own README file, documenting areas for improvement and listing the files reviewed. The root folder provides a summary of the findings and recommendations for each area.
 
 ## General Notes
 
 - Consistent code formatting is essential for readability and reducing cognitive load for everyone working on the codebase.
-  - Please ensure your editor and plugins support the agreed formatting standards. If a tool is causing issues, consider adjusting or replacing it to maintain consistency.
+  - Ensure your editor and plugins support the agreed formatting standards. If a tool is causing issues, consider adjusting its settings or replacing it to maintain consistency.  "The plugin I'm using did that" is not a valid excuse for not following the standards.
+  - Use the same formatting throughout the project.  Some blocks, for example, have a newline after the block definition and some don't.
 - Separation of concerns is important, especially regarding HTML, CSS, and JavaScript:
   - Blade files should primarily contain HTML and Blade syntax, with minimal embedded JavaScript or CSS.
+  - Remotely-hosted files should be enqueued properly in the theme's `setup.php` file.
   - JavaScript should be placed in dedicated `.js` files and enqueued properly.
   - CSS should be placed in dedicated `.css` files and enqueued properly.
 - Variable names should be descriptive and meaningful. For example, prefer `$block_id`, `$block_instance`, or `$block_info` over ambiguous names like `$bi`.
@@ -26,7 +28,12 @@ Each folder containing functional code is represented in this review (including 
 
 The following files were found to have areas that do not meet the coding standards and best practices. Addressing these will help us build a stronger, more maintainable codebase:
 
-- Folder: `blocks`
+- `phpcs` Results - Before automated fixes - [`phpcs-results.txt`](phpcs-results.txt)
+- `phpcs` Results - After automated fixes - [`phpcs-results-fixed.txt`](phpcs-results-fixed.txt)
+- Folder: [`root`](root/README.md) - Theme root files found to have issues
+  - `functions.php`
+  - `index.php`
+- Folder: [`blocks`](blocks/README.md) - Theme block files found to have issues
   - `alamos-carousel.blade.php`
   - `alamos-chart-block.blade.php`
   - `alamos-highlight.blade.php`
@@ -40,7 +47,7 @@ The following files were found to have areas that do not meet the coding standar
   - `content-map.blade.php`
   - `homepage-report-contents.blade.php`
   - `inner-page-nav.blade.php`
-- Folder: `components`
+- Folder: [`components`](components/README.md) - Theme component files found to have issues
   - `chevron-l.blade.php`
   - `chevron-r.blade.php`
   - `figure-4-1.blade.php`
@@ -53,8 +60,6 @@ The following files were found to have areas that do not meet the coding standar
   - `figure-6-7.blade.php`
   - `icon-arrow.blade.php`
   - `icon-list.blade.php`
-- Folder: `partials`
+- Folder: [`partials`](partials/README.md) - Theme partial files found to have issues
   - `page-hero-homepage.blade.php`
   - `table.blade.php`
-- `functions.php`
-- `index.php`
