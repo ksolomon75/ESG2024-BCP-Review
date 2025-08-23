@@ -1,8 +1,8 @@
-# Alamos ESG 2024 Coding Standards Review - Components
+# Alamos ESG 2024 Coding Standards Review - Root
 
 ## Files Reviewed
 
-This folder contains the following files that were reviewed and found to be non-compliant with coding standards:
+This folder contains the following files that were reviewed and found to have significant coding standard violations that must be addressed to ensure the reliability, security, and maintainability of the project:
 
 - `functions.php`
 - `index.php`
@@ -14,29 +14,19 @@ Click on each file name to review the list of issues for each file.
 <details name="problems">
 <summary>functions.php</summary>
 
-- This file should 100% NEVER be edited.  All functionality should be in the `setup.php` file or other included files.
-- Improper code formatting
-  - Location: Throughout the file
-  - `if` and `function` statements not properly indented.
-- Improperly enqueued scripts and styles: Ensure all scripts and styles are enqueued properly in the `setup.php` file.
-  - Location: Lines 67-82
-  - Done properly, you don't need that echo statement inserting content into the footer.
-- Improper filter location
-  - Location: Lines 84-117
-  - This should be in the `filters.php` file, not in `functions.php`.
-  - You also shouldn't embed the CSS in this filter.  Put it in the `common.scss` file or similar.
+- This file should never be edited directly. All functionality must be placed in the `setup.php` file or other included files to avoid introducing instability and maintenance risks.
+- Code formatting issues are present throughout the file, including improper indentation of `if` and `function` statements. Consistent formatting is essential for code clarity and team collaboration.
+- Scripts and styles are not properly enqueued. All scripts and styles must be enqueued in the `setup.php` file to ensure proper loading and security. Directly echoing content into the footer is not acceptable and can lead to unpredictable behavior.
+- Filters are placed incorrectly. Filters should be located in the `filters.php` file, not in `functions.php`. Embedding CSS in filters is discouraged; styles should be placed in the appropriate SCSS file for maintainability.
 
 </details>
 
 <details name="problems">
 <summary>index.php</summary>
 
-- Generally, this file should never be edited.  These changes can and should be made elsewhere.
-- Remote JavaScript packages should be enqueued properly in the theme's `setup.php` file.
-  - Location: Line 7
-- Remote stylesheets should be enqueued properly in the theme's `setup.php` file.
-  - Location: Line 22
-- Google Tag Manager code is embedded in the php file.
-  - Location: Lines 10-20. It would, however,  be better in an element with a Custom HTML block in the `Below Footer` position.  This makes it easier to maintain and update.
+- This file should not be edited directly. Any changes should be made in the appropriate theme files to prevent future conflicts and ensure maintainability.
+- Remote JavaScript packages are not properly enqueued. All scripts must be enqueued in the theme's `setup.php` file to comply with WordPress standards and avoid security vulnerabilities.
+- Remote stylesheets are not properly enqueued. All styles must be enqueued in the theme's `setup.php` file for consistency and reliability.
+- Google Tag Manager code is embedded directly in the PHP file. This practice can introduce maintenance issues. It is strongly recommended to place such code in an Element using a Custom HTML block in the `Below Footer` position for easier management and updates.
 
 </details>

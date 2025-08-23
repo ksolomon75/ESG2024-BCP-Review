@@ -24,12 +24,22 @@ Each folder containing functional code is represented in this review (including 
 - Comments should be used to clarify complex logic or decisions, especially where the code may not be self-explanatory.
 - Regular code reviews are encouraged to help everyone adhere to standards and best practices.
 
+## Testing Method
+
+The testing method for this project involves a combination of automated and manual testing approaches:
+
+1. **Automated Testing**: Utilize `phpcs` with the Standard and WordPress coding standards packages for testing PHP code (with certain exceptions, as seen in the [.phpcs.xml](.phpcs.xml) file), ensuring adherence to coding standards.
+   - See the [phpcs-results.txt](`phpcs-results.txt`) file for the results after running `phpcs`.
+2. **Automated Fixes**: Utilize `phpcbf` with the same standards as `phpcs` to automatically fix many of the issues identified by `phpcs`.
+   - See the [phpcs-results-fixed.txt](`phpcs-results-fixed.txt`) file for the results after running `phpcbf`.
+3. **Manual Code Reviews**: Review each file manually to ensure compliance with coding standards and best practices (`phpcs` doesn't catch everything, and doesn't catch problems in Blade directives). This includes checking for proper formatting, adherence to the separation of concerns, and the use of meaningful variable names.
+
 ## Review Summary
 
 The following files were found to have areas that do not meet the coding standards and best practices. Addressing these will help us build a stronger, more maintainable codebase:
 
 - `phpcs` Results - Before automated fixes - [`phpcs-results.txt`](phpcs-results.txt)
-- `phpcs` Results - After automated fixes - [`phpcs-results-fixed.txt`](phpcs-results-fixed.txt)
+- `phpcs` Results - After automated fixes using `phpcbf` - [`phpcs-results-fixed.txt`](phpcs-results-fixed.txt)
 - Folder: [`root`](root/README.md) - Theme root files found to have issues
   - `functions.php`
   - `index.php`

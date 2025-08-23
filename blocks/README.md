@@ -2,7 +2,7 @@
 
 ## Files Reviewed
 
-This folder contains the following files that were reviewed and found to be non-compliant with coding standards:
+This folder contains the following files that were reviewed and found to have significant coding standard violations that must be addressed to ensure the reliability, security, and maintainability of the project:
 
 - `alamos-carousel.blade.php`
 - `alamos-chart-block.blade.php`
@@ -20,7 +20,7 @@ This folder contains the following files that were reviewed and found to be non-
 
 ## Issue Descriptions
 
-Click on each file name to review the list of issues for each file.
+Click on each file name to review the list of issues for each file. These issues are not minor and must be resolved to prevent future problems and technical debt.
 
 <details name="problems">
 <summary>alamos-carousel.blade.php</summary>
