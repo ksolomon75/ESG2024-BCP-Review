@@ -23,6 +23,7 @@ Each folder containing functional code is represented in this review (including 
 - Variable names should be descriptive and meaningful. For example, prefer `$block_id`, `$block_instance`, or `$block_info` over ambiguous names like `$bi`.
 - Comments should be used to clarify complex logic or decisions, especially where the code may not be self-explanatory.
 - Regular code reviews are encouraged to help everyone adhere to standards and best practices.
+- Not theme-related, but important.  Refrain from using plugins such as "Dark Mode for WP Dashboard" that modify the admin interface.  These can introduce inconsistencies and unexpected behavior, making it harder to maintain a stable and predictable environment for all users.  If you want dark mode for yourself, do it via your personal browser.
 
 ## Testing Method
 
